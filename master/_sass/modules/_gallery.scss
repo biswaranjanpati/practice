@@ -1,0 +1,53 @@
+.gallerySection{
+	background: url(../images/pattern-01.png);
+	
+}
+
+.galleryWrapper{width: 55%;}
+
+#photoGallery{
+
+}
+
+#gallery{
+	margin:10px -10px;
+	text-align: left;
+	.galleryThumb{
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px;
+		width: 33%;
+		a{display: block;
+			width: 100%;
+			img{
+				width: 100%;
+			}
+		}
+		span{display: block;
+			font-size: 1.1em;
+			font-weight: 600;
+			 padding-top: 5px;
+			color: #545454;}
+	}
+}
+
+#videos{
+	margin:10px -10px;
+	text-align: left;
+	.galleryThumb{
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px;
+		width: 33%;
+		a{display: block;
+			img{
+				width: 100%;
+			}
+		}
+		span{display: block;
+			font-size: 1.1em;
+			font-weight: 600;
+			 padding-top: 5px;
+			color: #545454;}
+	}
+}

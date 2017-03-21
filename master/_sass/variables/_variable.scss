@@ -1,0 +1,96 @@
+/* width*/
+
+$containerWidth:1366px;
+
+/* Colors */
+$blue: blue;
+$black: #000;
+
+$globalColor: #686868;
+$globalBg: #fff;
+$borderColor: #d8d8d8;
+$focusColor: #f57e32;
+$navTextColor: #333333;
+$navColor: #fff;
+$headingColor:#000;
+$tabHeadingBg:#353333;
+$tabTextColor:#d8d4d4;
+$footerbg:#111111;
+$footerColor: #c4c3c3;
+$copyrightColor:#716f6f;
+/*paddings*/
+
+$wrapperPadding:25px;
+
+
+// Responsive widths
+
+$miniDesktop:1400px;
+$smallDesktop:1100px;
+$tabMax:1024px;
+$tabMini:940px;
+$tabMid:800px;
+$tabSmall:768px;
+$mobileBig:640px;
+$mobileMini:500px;
+$mobileSmall:400px;
+
+
+/* Color variables */
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #333;
+}
+
+.color-muted {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.color-muted-inverse {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.color-error {
+  color: red;
+}
+
+.color-info {
+  color: #3F42F6;
+}
+
+.color-success {
+  color: #2AC171;
+}
+
+/*--- BACKGROUNDS ---*/
+
+.bg-black {
+  background-color: #222;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-muted {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.bg-muted-inverse {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bg-error {
+  background-color: red;
+}
+
+.bg-info {
+  background-color: #3F42F6;
+}
+
+.bg-success {
+  background-color: green;
+}

@@ -1,0 +1,48 @@
+#footer{
+	background: $footerbg;
+	padding: 40px 0px;
+	
+	.footerMenu{
+			text-align: center;
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+			border-bottom: 1px solid rgba(255,255,255,0.1);
+		ul{
+			display: inline-block;
+		
+		li{
+			display: inline-block;
+
+
+			a{
+				display: block;
+				padding: 5px 10px;
+				color: $footerColor;
+				text-transform: uppercase;
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	}
+}
+
+.copyRights{
+	text-align: center;
+	margin-top: 20px;
+	.NicLogo{
+		padding-right: 10px;
+	}
+	.NicLogo, .copyRightsText{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.copyRightsText{
+		color: $copyrightColor;
+		font-size: 0.85em;
+		width: 30%;
+		min-width: 300px;
+	}
+}

@@ -1,0 +1,36 @@
+/* Global veriables */
+
+@import "variables/variable";
+@import "variables/mixin"; 
+
+/* besic layout for site*/
+@import "fonts";
+@import "layout/reset";
+@import "helpers";
+@import "layout/default";
+@import "addons/fancybox";
+
+/* Stature elements for site */
+@import "header";
+@import "top-part";
+@import "header-nav";
+@import "header-nav-mobile";
+@import "footer";
+
+
+/* Modules to include in site*/
+
+@import "modules/tabs";
+@import "modules/tables";
+@import "modules/sliders";
+@import "modules/parallax";
+@import "modules/modals";
+@import "modules/lightbox";
+@import "modules/icons";
+@import "modules/forms";
+@import "modules/buttons";
+@import "modules/accordion";
+@import "modules/gallery";
+@import "modules/sections";
+
+@import "layout/responsive";

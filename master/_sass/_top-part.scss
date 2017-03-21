@@ -1,0 +1,134 @@
+
+#topBar{border-bottom:1px solid $borderColor;}
+
+.govBranding{
+  ul{
+    li{
+      display: inline-block;
+      a{
+        display: block;
+        font-size: 0.78em;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 15px 10px;
+      }
+      &:first-child{
+        border-right: 1px solid $borderColor;
+      }
+    }
+  }
+}
+
+#accessibility{ 
+
+  ul{
+    li{
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      a{
+        color:$navTextColor;
+        font-size: 2em;
+        padding: 4px 8px;
+        border-left: 1px solid $borderColor;
+        vertical-align: top;
+        display: block;
+        &:hover, &:focus{
+          background: $navTextColor;
+          color: $navColor;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+
+      &.highContrast.dark{
+        a{
+          background: $navTextColor;
+          color: $navColor;
+        }
+        
+      }
+      &.light{display: none;}
+
+      & .textSizing{
+        padding: 10px 12px;
+        border-left: 1px solid $borderColor;
+        border-right: 1px solid $borderColor;
+        ul{
+          li{
+            a{
+              font-size: 0.8em;
+              border: 1px solid $borderColor;
+              @include border-radius(4px);
+              padding: 4px 6px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+
+      & select{
+        width: 80px;
+        padding: 2px;
+        margin-top: 10px;
+        font-size: 0.8em;
+        margin-left: 8px;
+        height: 25px;
+        @include border-radius(4px);
+
+      }
+
+      & .goiSearch{
+        position: absolute;
+        width: 200px;
+        z-index: 1;
+        left: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        input[type=text]{
+          display: inline-block;
+          width: 160px;
+          border: 1px solid $borderColor;
+          
+
+        }
+        button{
+              display: inline-block;
+              width: 40px;
+              font-size: 20px;
+              padding: 3px 0px;
+              text-align: center;
+              float: right;
+              background: $borderColor;
+        }
+        
+      }
+      & .socialIcons{
+        position: absolute;
+        width: 45px;
+        z-index: 1;
+        left: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        border: 1px solid $borderColor;
+        border-top: 0px;
+        border-left: 0px;
+        ul{
+          li{
+            display: block;
+            text-align: center;
+            a:hover, a:focus{
+              background: $borderColor;
+            }
+          }
+        }
+
+      }
+
+      &.mFocus .socialIcons, &.mFocus .goiSearch, & a:focus + .goiSearch, &:hover a + .goiSearch, & a:focus + .socialIcons, &:hover a + .socialIcons{
+          visibility: visible;
+        }
+    }
+  }
+}

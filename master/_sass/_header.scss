@@ -1,0 +1,51 @@
+/* Top bar set 1 start */
+
+
+
+
+
+
+
+/* Header Set 1 Start */
+.toggle-nav-bar{display:none;}
+.header-container {
+  padding: 8px 0px;
+}
+.logo {
+  
+  float: left;
+  font-size: 160%;
+  line-height: 105%;
+  min-height: 103px;
+  padding: 14px 0 0 85px;
+  text-transform: uppercase;
+  position:  relative;
+  .emblem{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  a {
+    color: #000;
+    padding-top: 5px;
+    strong {
+      font-weight: 600;
+    display: block;
+    font-size: 95%;
+    }
+    span {
+      display: block;
+    font-weight: 900;
+    font-size: 120%;
+    padding-top: 10px;
+    }
+    display: block;
+    text-align: left;
+  }
+}
+.header-right{float:right;}
+.float-element{float:left; margin-left:12px;}
+.sw-logo {
+  display: inline-block;
+}
+/* Header Set 1 end */
